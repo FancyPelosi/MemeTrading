@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["nodejs-16_x"]
+
+[phases.build]
+cmds = []
+
+[phases.start]
+cmd = "node bot.js"
